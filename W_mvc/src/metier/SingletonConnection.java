@@ -8,7 +8,7 @@ private static Connection connection;
 static{
 	try {
 		Class.forName("com.mysql.jdbc.Driver");
-		connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/DB_MVC_CAT","root","sixfeetunder");
+		connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/DB_MVC_CAT","root","");
 	} catch (Exception e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
